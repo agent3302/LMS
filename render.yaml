@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: ctfd-capstone
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    branch: main
+    autoDeploy: true
+    region: singapore
